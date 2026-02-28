@@ -241,6 +241,19 @@ FEATURES
 */
 
 #features {
+  padding-top: 8vw;
   background-color: rgb(137, 214, 192);
-  height: 1000px;
+}
+
+.books {
+  display: flex;
+}
+
+.book {
+  width: 25%;
+  padding: 24px;
+}
+
+.book__img {
+  max-height: 380px;
 }
